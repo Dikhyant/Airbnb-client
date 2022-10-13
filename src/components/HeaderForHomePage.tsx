@@ -31,20 +31,25 @@ export default class HeaderForHomePage extends React.Component {
                         </div>
                     </div>
                     <div style={{flex: 1}} className="profile-control-section">
-                        <div style={{flex: 4}} className="become-a-host-btn-wrapper" >
+                        <div style={{paddingRight: "5px"}} >
                             <div className="become-a-host-btn" ><p>Become a host</p></div>
                         </div>
-                        <div style={{flex: 1}}>
-                            <img src={GlobeIcon} alt="" style={{width: "1.2vw"}} />
-                        </div>
-                        <div style={{flex: 2}}>
-                            <div>
-                                <img src={HamburgerIcon} alt="" />
+                        <div style={{paddingRight: "5px"}}>
+                            <div className="nation-setting-btn">
+                                <img src={GlobeIcon} alt="" style={{width: "1.2vw"}} />
                             </div>
-                            <div></div>
                         </div>
+                        <div>
+                            <div className="profile-btn">
+                                <div style={{display: "flex", justifyContent: "center"}} >
+                                    <img src={HamburgerIcon} alt="" style={{width: "1.4vw"}} />
+                                </div>
+                                <div style={{width: "2vw", aspectRatio: 1, backgroundColor: "#dddddd", borderRadius: "50%"}} ></div>
+                            </div>
+                        </div>  
                     </div>
                 </div>
+                <div className="header-1-header-2-separator" ></div>
                 <div className="header-homepage-2"></div>
             </header>
         )
