@@ -1,0 +1,80 @@
+.header-homepage-1 {
+    display: flex;
+
+    background-color: #ffffff;
+}
+
+.header-homepage-1 .search-tool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 24vw;
+    height: 7vh;
+
+    padding-right: 0.5vw;
+
+    border-style:solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    border-radius: 50px;
+}
+
+.header-homepage-1 .search-tool .any-week-text {
+    border-left-color: #dddddd;
+    border-left-style: solid;
+    border-left-width: 1px;
+
+    border-right-color: #dddddd;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.header-homepage-1 .search-tool-wrapper {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.header-homepage-1 .logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header-homepage-1 .search-tool .search-btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 2.3vw;
+    aspect-ratio: 1/1;
+    background-color: #ff385c;
+    border-radius: 50%;
+}
+
+.header-homepage-1 .search-tool .search-btn .search-icon {
+    width: 1em;
+    font-weight: 700;
+}
+
+.header-homepage-1 .search-tool .text-wapper {
+    text-align: center;
+}
+
+.header-homepage-1 .profile-control-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-homepage-1 .become-a-host-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10vw;
+    height: 5vh;
+
+    border-radius: 50px;
+    
+    background-color: #dddddd;
+}
